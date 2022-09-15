@@ -2,6 +2,8 @@
   (:require [clojure.test :refer :all]
             [triangulo.core :refer :all]))
 
+
+
 (def triangulos-teste
   [{:lados [60 51.96152 30],
     :perimetro 141.96152
@@ -9,7 +11,7 @@
     :isosceles false,
     :altura [25.980759999999748 29.99999999999971 51.961519999999496],
     :retangulo true,
-    :angulos [90.00000807310232 59.999991926898005 29.999999999999673],
+    :angulos [90.00000807310232 59.99999192689801 29.999999999999673],
     :escaleno true,
     :area 779.4227999999924,
     :obtuso false,
@@ -31,7 +33,7 @@
     :isosceles false,
     :altura [27.815512539195034 14.999997251271704 14.044432426377607],
     :retangulo false,
-    :angulos [29.999993938186886 67.99998420642707 82.00002185538605],
+    :angulos [29.999993938186886 67.99998420642707 82.00002185538607],
     :escaleno true,
     :area 210.66648639566412,
     :obtuso false,
@@ -122,4 +124,5 @@
 
 (comment
   (run-tests *ns*)
+
   )
